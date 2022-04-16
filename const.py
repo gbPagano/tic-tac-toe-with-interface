@@ -1,0 +1,13 @@
+#cores
+FUNDO = (20,189,172)
+LINHAS = (13,161,146)
+COR_CIRC = (242,235,211)
+COR_X = (84,84,84)
+PRETO = (0,0,0)
+APERTADO = (13,161,200)
+
+FPS = 30
+
+SPRITESHEET = "spritesheet.png"
+
+FONTE = "Cymbria"
