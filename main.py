@@ -1,8 +1,9 @@
 from const import*
 import pygame, os, random, sys, ctypes
-from win32api import GetSystemMetrics
-myappid = 'mycompany.myproduct.subproduct.version'
-ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
+if os.name == "nt":
+    from win32api import GetSystemMetrics
+    myappid = 'mycompany.myproduct.subproduct.version'
+    ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID(myappid)
 
 from logicajogo import*
 
