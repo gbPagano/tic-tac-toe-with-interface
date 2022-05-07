@@ -14,12 +14,12 @@ vencer o jogo.
 
 ## Requisitos
 * Ter o Python instalado na versão 3.10.4 (durante o desenvolvimento, utilizei a versão 3.10.4, então não garanto que versões anteriores funcionem);
-    * ter as seguintes bibliotecas no Python:
+    * Ter as seguintes bibliotecas no Python:
         * pygame==2.1.2
         * pywin32==303 (caso esteja no Windows)
 * O modo fullscreen funciona apenas no Windows.
 ## Como utilizar
-### Intalando as bibliotecas necessárias
+### Instalando as bibliotecas necessárias
 ```bash
 $ git clone https://github.com/gbPagano/tic-tac-toe-with-interface
 $ cd ./tic-tac-toe-with-interface
